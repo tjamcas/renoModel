@@ -1,0 +1,182 @@
+/* ---- Page appearance settings ---- */
+body{
+	background-color: #edf5ff80;
+}
+
+
+/* ---- Navbar adjustments ---- */
+/* ---- Adjust top of page content to fit below navigation bar ---- */
+.below-nav h1 {
+	margin-top: 80px;
+}
+.navbar-brand{
+	font-family: "Arizonia";
+	font-size: 1.6em;
+}
+
+
+/* ---- Typography ---- */
+h1{
+	font-family: "Arizonia";
+	font-weight: bold;
+	font-size: 2.8rem;
+}
+h2, h3, h4, h5, h6{
+	font-family: Perpetua;
+	font-weight: bold;
+}
+
+/* ---- Sticky footer of unknown size: 
+		this is necessary with responsive design because footer
+		could become taller when viewed on a small or medium device.
+		See also:
+		https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+		---- */
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+
+
+/* ---- Photo carousel display adjustments ---- */
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-inner {
+	/*height: 70vh;*/
+	margin-bottom: 1rem;
+}
+
+/*@media screen and (min-width: 576px) {
+	.carousel-inner {
+		height: 55vh;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.carousel-inner {
+		height: 45vh;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.carousel-inner {
+		height: 30vh;
+	}*/
+}
+
+/* For future development: center photos vertically in carousel script
+	will most likely require modifying carousel.css rather than main.css.
+	The below code vertically centers the images, but it scrubs the margins
+	and results in "ugly" scroll transform.
+
+	.carousel-inner img {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}*/
+
+
+.carousel-control-prev-icon {
+    /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231a1a1a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");*/
+}
+
+.carousel-control-next-icon {
+    /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231a1a1a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");*/
+}
+
+
+/* ---- Text column scrolls ---- 
+		Future enhancement - TBD.
+		Look at main-v1 for first unsuccessful attempt. 
+*/
+
+/* ---- Design page images ---- */
+img.design, img.progress {
+	width: 100%;
+	height: auto;
+}
+
+
+/* ---- Google calendar adjustments ---- */
+
+.googleCalContainer{
+	border: solid 1px #777;
+	margin-bottom: 2rem;
+}
+.googleCal{
+	border: solid 1px #777;
+	width: 800px;
+	height: 600px;
+	overflow: hidden;
+}
+
+/* ---- Video adjustments ---- */
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.calVideo{
+	margin-bottom: 2rem;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border:2px solid #596367;	
+}
+
+/* ---- Footer positioning adjustments ---- */
+footer{
+	padding: 20px 0 30px 0;
+}
+
+footer a{
+	display: inline-block;
+	margin-right: 15px;
+	border:3px solid #596367;
+}
+
+footer div[class *= "col-"] {
+	margin-bottom: 1.5rem;
+}
+
+/* ---- Contractor links in footer ---- */
+
+a.list-group-item{
+	border:2px solid #596367;
+}
+
+
+/* ---- Google map in footer ---- */
+/* Set the size of the div element that contains the map */
+footer .googleMap {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border:3px solid #596367;
+  	width: 90%;
+  	/*width: 40%;*/
+  	/* The height is 400 pixels */
+  	/*width: 100%;*/
+  	/* The width is the width of the web page */
+}
+
+/* ---- WeatherWidget in footer ---- */
+
+.weatherwidget-io {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
