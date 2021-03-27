@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <title>Somewhere, USA - Calendar</title>
+
+</head>
+
+<!-- *** Web page content *** -->
+
+<body class="site">
+
+    <header>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">Casa Remodelers</a>
+            <!-- Toggle/collapsible hamburger button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="design.html" class="nav-link">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="progress.html" class="nav-link">Progress</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Calendar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="site-content">
+
+        <div class="container-fluid below-nav">      
+            <h1>Somewhere, USA</h1>           
+        </div>
+
+        <!-- *** Multi-item, responsive photo carousel *** -->
+        <!-- ***               based on:               *** -->
+        <!--     https://codepen.io/timar/pen/mabyEg       -->
+        <!-- _____________________________________________ -->
+
+        <div class="container-fluid">
+            <div id="archives" class="carousel slide" data-ride="carousel" data-interval=7000>
+
+            <!--  ***                 The indicators               *** -->
+            <!-- Future enhancement: responsive coordinated indicators -->
+            <!-- <ul class="carousel-indicators">
+                <li data-target="#archives" data-slide-to="0" class="active"></li>
+                <li data-target="#archives" data-slide-to="1"></li>
+                <li data-target="#archives" data-slide-to="2"></li>
+                <li data-target="#archives" data-slide-to="3"></li>
+                <li data-target="#archives" data-slide-to="4"></li>
+                <li data-target="#archives" data-slide-to="5"></li>
+                <li data-target="#archives" data-slide-to="6"></li>
+                <li data-target="#archives" data-slide-to="7"></li>
+                <li data-target="#archives" data-slide-to="8"></li>
+                <li data-target="#archives" data-slide-to="9"></li>
+                <li data-target="#archives" data-slide-to="10"></li>
+                <li data-target="#archives" data-slide-to="11"></li>
+                <li data-target="#archives" data-slide-to="12"></li>
+            </ul> -->
+
+
+            <!-- The slideshow -->
+
+                <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-2 active">
+                        <img class="img-fluid mx-auto d-block" src="images/carouselOriginalCabin.jpeg" alt="Original Frost cabin - slide 1">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-2">
+                        <img class="img-fluid mx-auto d-block" src="images/carouselLakeHuronKayakSunset.jpeg" alt="Kayaks on Lake Huron at sunset - slide 2">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-2">
+                        <img class="img-fluid mx-auto d-block" src="images/carouselVintageBeach.jpeg" alt="Lakefront view in the 1970's - slide 3">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-2">
+                        <img class="img-fluid mx-auto d-block" src="images/carouselSleepingPorch.jpeg" alt="View of the back of the Cheboygan house including the sleeping porch - slide 4">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-2">
+                        <img class="img-fluid mx-auto d-block" src="images/carouselHBirdFeeder.jpg" alt="Hummingbird by feeder outside living room window - slide 5">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-2">
+                        <img class="img-fluid mx-auto d-block" src="images/carouselSnowDoor.jpeg" alt="Snow piled up and around kitchen entrance door in the early 80's - slide 6">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-2">
+                        <img class="img-fluid mx-auto d-block" src="images/carouselCasaLaPaloVerde.jpg" alt="Casa La Palo Verde sign - slide 7">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-2">
+                        <img class="img-fluid mx-auto d-block" src="images/carouselWeinerlicious.jpg" alt="Mackinaw City Wienerlicious storefront - slide 8">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-2">
+                        <img class="img-fluid mx-auto d-block" src="images/carouselMillCreek.jpeg" alt="Mill Creek - slide 9">
+                    </div>
+                </div>
+
+                <!-- The left and right controls -->
+                <a class="carousel-control-prev" href="#archives" role="button" data-slide="prev">
+                    <i class="fa fa-chevron-left fa-lg text-muted"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next text-faded" href="#archives" role="button" data-slide="next">
+                    <i class="fa fa-chevron-right fa-lg text-muted"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- _____________________________________________ -->
+
+        <!--             *** END - Carousel ***            -->
+
+
+
+		<!-- Google Calendar: "Cheboygan House" under Tim's Google account -->
+    	<div class="container-fluid">
+	    	<h2>Cheboygan House Guest and Event Calendar</h2>
+	    	<p><em>Note:</em> to view the renovation and construction calendar, you must have a Google account and be logged in.</p>
+	    	<div class="embed-responsive embed-responsive-4by3 googleCalContainer">
+	    		<iframe class = "googleCal" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FDetroit&amp;src=aGUwMDQwb2NyYWY2YnFiY2o5bXZjdThnMzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237986CB&amp;color=%230B8043&amp;showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0" ></iframe>
+                <!-- Took out of iframe tag: style="border:solid 1px #777" width="800" height="600" border="0" overflow="hidden" and put into main.css under new class "googleCal" -->
+	    	</div>
+    	</div>
+
+        <div class="container-fluid">
+            <h3>Local Spring Break Up - March 2021</h3>
+            <p class="font-italic">(Press unmute for sound.)</p>
+            <div class="media">
+                <video controls muted poster="videos/SpringBreakupPoster.jpg" class="calVideo">
+                   <source src="videos/SpringBreakUp03232021-480p.mp4" type="video/mp4">
+                    Your browser does not support this HTML5 video format.
+                </video>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+    <!-- 1. Add a map to the website footer.
+        Google Maps url: https://goo.gl/maps/owYUpAQ24QbDR4hV6 -->
+    <!-- 2. Add a weather widget to to the website footer. WeatherWidget url: https://weatherwidget.io -->
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <h4>Contractors and Suppliers Listing</h4>
+                <div class="list-group">
+                    <a href="https://www.kpneuman.com/" class="list-group-item">K.P. Neuman & Sons</a>
+                    <a href="http://www.wernerplumbing.com/services/kitchen-bath.php" class="list-group-item">Werner Plumbing & Heating</a>
+                    <a href="http://mousercabinetry.com/" class="list-group-item">Mouser Cabinetry</a>
+                    <a href="https://www.somersetfloors.com/" class="list-group-item">Somerset Hardwood Flooring</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44628.72729423937!2d-84.50077802348112!3d45.64488810587811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d35a282ad3400cb%3A0xd2f53b42c89f20eb!2sCheboygan%2C%20MI%2049721!5e0!3m2!1sen!2sus!4v1616428537278!5m2!1sen!2sus" class="googleMap" width="400" height="300" allowfullscreen="" loading="lazy"></iframe>
+            </div>            
+            <div class="col-md-3">
+                <a class="weatherwidget-io" href="https://forecast7.com/en/45d65n84d47/cheboygan/?unit=us" data-label_1="CHEBOYGAN" data-label_2="WEATHER" data-icons="Climacons" data-mode="Current" data-theme="gray" >CHEBOYGAN WEATHER</a>
+                <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                </script>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<!-- Loading full version of jquery - minimal file size load increase
+Using Google's library - many viewers will already have this loaded -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<!-- carousel.js must go at end in order to wrap carousel images -->
+<script src="js/carousel.js"></script>
+
+<!-- lightbox-plus-jquery.js must also load just before the closing </body> tag -->
+<!-- <script src="js/lightbox.js"></script> -->
+
+
+</body>
+
+
+</html>
