@@ -1,8 +1,8 @@
 # renoModel
-### WD4E Capstone - Home Renovation Website model
+### WD4E Capstone - Home Renovation Website model - HTML, CSS, Bootstrap 4, JavaScript
 ----
 
-This is a webpage I developed that could be used by a building contractor business, interior designer, or by an owner to share photos and information about a renovation project.
+This is a webpage I developed that could be used by a building contractor business, interior designer, or by an owner to share photos and information about a renovation project. It employs HTML, CSS, Bootstrap 4, and JavaScript.
 
 #### Background:
 
